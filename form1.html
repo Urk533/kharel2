@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Welcome to Tacebook</title>
+  	<link href="style.css" rel="stylesheet" type="text/css" >
+  </head>
+  <body>
+  	<main>
+  	  <section class="testform">
+    	<article>
+    		<h2>My first form page</h2>
+    		<p>This page was my first form page and it looks really great. It took me alot of time to lear, study and write the codes in the sublime text editor. Anyway now I am perfect in coding and my skills are becoming great and great day by day.</p>
+        </article>
+        <form action="./babu.html" method="POST">
+      	<h1>Tacebook Inc.</h1>
+      	<br>
+      	<p><strong>From here you can login to our <span>official</span> website and enjoy our content.</strong></p>
+      	<section class="typename">
+      	  <label for="username"><strong>Username:</strong></label>
+      	<br>
+          <input type="text" id="username" name="username" maxlength="9" minlength="3" pattern="[a-zA-Z0-9]+" required>
+        </section>
+        <hr>
+        <section class="password">
+          <label for="user-pw"><strong>Password:</strong></label>
+        <br>
+          <input type="password" id="user-pw" name="user-pw" maxlength="12" minlength="7" pattern="[a-zA-Z0-9]+" required>
+        </section>
+        <hr>
+        <section class="DOB">
+        	<label for="age"><strong>Can I Know Your Age</strong></label>
+        	<br>
+        	<input type="number" id="age" name="age">
+        </section>
+        <hr>
+        <section class="feedback">
+        	<label for="likeness"><strong>How much do you like our webpage</strong></label>
+        <br>
+            <span>Bad</span>
+        
+            
+
+            
+
+            <input type="range" name="likeness" id="likeness" min="0" max="10" step="1">
+         
+            
+
+
+
+
+
+            
+
+
+            <span>Excellent</span>
+        </section>
+        <hr>
+        <section class="socialmeadia">
+        	<p><strong>Now we want to know our customer behaviour. So kindly tick on those application that you consume in below check boxes mentioned:</strong></p>
+        	<label for="Jistagram"><strong>Jistagram</strong></label>
+        	<input type="checkbox" name="application" id="jistagram" value="jistagram">
+        	<br>
+        	<label for="fabchat"><strong>Fabchat</strong></label>
+        	<input type="checkbox" name="application" id="fabchat" value="fabchat">
+        	<br>
+        	<label for="switter"><strong>Switter</strong></label>
+        	<input type="checkbox" name="application" id="switter" value="switter">
+        </section>
+        <hr>
+        <section class="app-selection">
+        	<p>How many applications do you consume other than this application?</p>
+            <label for="two">2</label>
+        	<input type="radio" name="consume" id="two" value="2">
+        	<label for="three">3</label>
+        	<input type="radio" name="consume" id="three" value="3">
+            <label for="four">4</label>
+        	<input type="radio" name="consume" id="four" value="4">
+        </section>
+        <br>
+        <section class="place">
+        	<label for="location">Where is Tacebook located?</label>
+        	<br>
+        	<select id="location" name="location">
+        		<option value="sanfransisco">Sanfransisco</option>
+        		<option value="baltimore">Baltimore</option>
+        		<option value="las vegas">Las Vegas</option>
+        		<option value="texas">Texas</option>
+        		<option value="california">California</option>
+        	</select>
+          </section>
+          <section class="endit">
+        	<br>
+           <input type="submit" value="submit">
+        </section>
+      </form>
+      <br>
+    </main>
+      <footer>E-mail:utsavvkharell@gmail.com Ph no.:9865175299</footer>
+      </section>
+  </body>    
+</html>
+
